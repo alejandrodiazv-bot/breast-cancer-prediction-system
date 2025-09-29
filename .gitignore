@@ -1,0 +1,31 @@
+# Logs
+logs/
+*.log
+
+# Modelos entrenados (se generan automáticamente)
+models/
+
+# Datasets
+data/
+
+# Archivos temporales
+*.pyc
+__pycache__/
+*.tmp
+temp_*
+test_*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Entornos virtuales
+venv/
+env/
+
+# Archivos temporales específicos
+Dockerfile.txt
+temp_docker.txt
+test_scaler.py
+test_prediction.py
+check_data.py
